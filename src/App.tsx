@@ -16,6 +16,7 @@ import { FutureVisionSection } from './components/FutureVisionSection';
 import { GallerySection } from './components/GallerySection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
 
       {/* Dark Plum Footer */}
       <Footer />
+        <Analytics />
     </div>
   );
 }
